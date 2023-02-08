@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.poppins_font{
+    font-family: 'Poppins', sans-serif;
+}
+
+.upper_nav_devider{
+    background-image: linear-gradient(to right, #f8cb0b ,#0c1d36);
+    height: 10px;
+    width: 100%;
+}
+.logo{
+    width: 180px;
+}
+nav{
+    background-color: #0c1d36;
+    transition: 0.9s;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.nav-link{
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+}
+.nav-link:hover{
+    color: #f8cb0b;
+
+}
+.nav-item{
+    padding: 0px 15px;
+}
+.nav_end_part{
+    color: #f8cb0b;
+    
+}
+.nav_end_part div i{
+    font-size: 16px;
+    font-weight: 400;
+}
+.nav_short_devider{
+    height:1px;
+    background-color: rgb(148, 148, 148);
+    width:30px;
+    transform: translateY(12px);
+}
+
+
+/* ========== landing page ========== */
+.home_page_heading{
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 39px;
+    letter-spacing: 9.1px;
+    margin:0px 0px 23px 0px;
+    text-transform: uppercase;
+
+}
+.landing_page{
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    align-items: center;
+}
+
+.landing_page_left_image{
+    width:115%;
+    border-radius: 23px 0px 0px 25px;
+}
+.landing_page_left_heading{
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 80px;
+   
+    
+}
+
+.multi_color{
+    background: linear-gradient(to left,
+    orange,
+    black);
+-webkit-background-clip: text;
+color: transparent;
+
+}
+.last{
+    background-image: linear-gradient(180deg, white, #f8cb0b);
+}
+.left_side_of_landing_page{
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.menu_bar,.nav_cross{
+    font-size: 30px;
+    color: white;
+}
+.nav_cross{
+    display: none;
+}
+.menu_bar_btn{
+    background-color: transparent;
+    border: none;
+}
+
+@media screen and (max-width: 992px){
+    .left_side_of_landing_page{
+        justify-content: start;
+        align-items: start;
+    }
+    .landing_page_left_heading{
+        font-size: 45px;
+        font-weight: 600;
+        line-height: 60px;;
+    }
+
+}
+
+.landing_page_btn{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 30px 0px;
+}
+
+/* ================= cars section =============== */
+.car_image{
+    height: 200px;
+    width: 200px;
+}
+
+
+
+/*================ pricing table ==============*/
+.pcrice_table_heading{
+    text-transform: uppercase;
+}
+.card{
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    background-color: #0c1d36;
+}
+.card-title{
+    font-size: 22px !important;
+    text-align: center;
+    font-weight: 600;
+    background-color:#f8cb0b;
+    padding: 8px;
+    color: white;
+    border-radius: 20px 20px 0px 0px;
+}
+.price_table_item{
+    display: block;
+    text-align: start;
+    color: white !important;
+    
+}
+.price_table_btn{
+    font-size: 19px !important;
+    text-align: center;
+    font-weight: 600;
+    background-color:#f8cb0b;
+    padding: 8px;
+    color: white;
+    border-radius: 0px 0px 20px 20px;
+    text-decoration: none;
+}
+.price_table_btn:hover{
+    color: #ebebeb;
+}
+.price_table_tick_icon{
+    color: green;
+}
+.price_table_cross_icon{
+    color: red;
+}
+.price_label{
+    background-color: #ebebeb;
+    border-radius: 20px 20px 0px 0px;
+    padding: 5px 25px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.pricing_table{
+    background-color: #ebebeb;
+}
+
+
+/*================ contact form ==============*/
+.contact_form{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.contact_form_label, .contact_form_input{
+    font-size: 14px;
+}
+
+
+/*================ footer ==============*/
+.footer{
+    background-color: #0c1d36;
+    color:white;
+}
+.footer_desc{
+    font-size: 16px;
+    font-weight: 300;
+}
+.footer_item_header{
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.footer_dvider{
+    margin: 15px 0px;
+    height: 4px;
+    width:50px;
+    background-image: linear-gradient(to right, #0c1d36,#f8cb0b);
+}
+.social_link{
+    height: 10px;
+    width: 10px;
+    font-size: 22px;
+    font-weight: 400;
+    padding: 3px 8px;
+    color: #f8cb0b;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.card_img{
+    height: 180px;
+}
+
+
+
+
+
+
+
+
+.price_table_container{
+    max-width: 1350px;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
